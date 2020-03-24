@@ -1,0 +1,14 @@
+torchvision==0.4.0
+torchnet==0.0.4
+torch==1.2.0
+Pillow<7.0.0
+gdown
+pdf2image
+pyfiglet
+pyunpack
+scipy
+wget
+CairoSVG
+numpy
+imageio
+patool
