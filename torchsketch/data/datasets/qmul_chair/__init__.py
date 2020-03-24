@@ -1,0 +1,1 @@
+from torchsketch.data.datasets.qmul_chair.download_qmul_chair import download_qmul_chair

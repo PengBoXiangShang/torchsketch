@@ -1,0 +1,1 @@
+from torchsketch.data.datasets.quickdraw import quickdraw_414k

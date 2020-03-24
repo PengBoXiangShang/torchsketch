@@ -1,0 +1,1 @@
+from torchsketch.data.datasets.qmul_shoe.download_qmul_shoe import download_qmul_shoe

@@ -1,0 +1,1 @@
+from torchsketch.data.datasets.sketchy.download_sketchy import download_sketchy
