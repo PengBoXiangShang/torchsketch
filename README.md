@@ -33,7 +33,7 @@ Then, TorchSketch can be imported into your Python console as follows.
 import torchsketch
 ```
 If you are using MacOS, you may need ***cairo*** and ***pango*** installed. You can install them with [homebrew](https://brew.sh/)
-```shell script
+```bash
 brew install cairo
 brew install pango
 ```
