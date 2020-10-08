@@ -104,7 +104,7 @@ As shown in the following figure, a general PyTorch-based code project mainly in
 
 
 ## Citations
-If you find this code useful to your research, please cite our paper "Deep Learning for Free-Hand Sketch: A Survey" ([https://arxiv.org/abs/2001.02600](https://arxiv.org/abs/2001.02600)):
+If you find this code useful to your research, please cite our paper "**Deep Learning for Free-Hand Sketch: A Survey**" ([https://arxiv.org/abs/2001.02600](https://arxiv.org/abs/2001.02600)):
 
 
 ## License
