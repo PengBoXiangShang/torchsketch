@@ -52,7 +52,7 @@ python setup.py install
 
 ### 2.1 Major Modules
 TorchSketch has three main modules, including `data`, `networks`, `utils`, as shown in follows.
-The documents are provided in `docs`.
+The documents and example codes are provided in `docs`.
   - **torchsketch**
     - **data**
       - **dataloaders**: provides the dataloader class files for the frequently-used sketch datasets, e.g., TU-Berlin, Sketchy, QuickDraw.
@@ -89,6 +89,10 @@ import torchsketch.utils.self_supervised_utils as self_supervised_utils
 import torchsketch.utils.svg_specific_utils as svg_specific_utils
 ```
 
+As shown in the following figure, a general PyTorch-based code project mainly includes four blocks, i.e., preparing data, preparing data loader, creating network/model, and training. The functions/APIs built-in torchsketch.utils are designed orienting at all four blocks. When researchers would prepare data and data loader, they could select functions/APIs from torchsketch.data. When researchers would create a network, they could select network classes from torchsketch.networks.
+<div align=center><img src="https://github.com/PengBoXiangShang/torchsketch/blob/master/torchsketch/docs/others/pseudo-code-figure.png" width="70%"/></div>
+
+
 
 ### 2.2 Major Features
   - TorchSketch supports both GPU based and Python built-in multi-processing acceleration.
@@ -98,3 +102,10 @@ import torchsketch.utils.svg_specific_utils as svg_specific_utils
   - TorchSketch supports self-supervised learning study for sketch.
   - TorchSketch, beyond free-hand sketch research, also has some universal components that are applicable to the studies for other deep learning topics.
 
+
+## Citations
+If you find this code useful to your research, please cite our paper "Deep Learning for Free-Hand Sketch: A Survey" ([https://arxiv.org/abs/2001.02600](https://arxiv.org/abs/2001.02600)):
+
+
+## License
+This project is licensed under the MIT License
