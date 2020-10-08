@@ -20,9 +20,9 @@ setup(
     keywords=['sketch', 'free-hand sketch', 'pytorch', 'deep learning'],
     packages = find_packages(exclude=['docs']),
     install_requires = [
-        'torchvision==0.4.0',
-        'torchnet==0.0.4',
-        'torch==1.2.0',
+        'torchvision>=0.4.0',
+        'torchnet>=0.0.4',
+        'torch>=1.2.0',
         'Pillow<7.0.0',
         'gdown',
         'pdf2image',
